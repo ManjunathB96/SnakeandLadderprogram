@@ -27,5 +27,12 @@ public class Welcome {
             default:
                 System.out.println("No choice Stay In Same position");
         }
+        for (int i =0; i<=100; i++){
+            if (startPosition == 0){
+                System.out.println("Player Start From beginning");
+            }
+            System.out.println("Continue to play");
+        }
+
     }
 }
